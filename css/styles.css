@@ -42,7 +42,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 189, 93, 56;
+  --bs-primary-rgb: 1,48,63;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -10942,6 +10942,39 @@ p.lead {
 
 .dev-icons {
   font-size: 3rem;
+}
+
+.card-cover {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-decoration: none
+}
+
+.feature-icon-small {
+  width: 3rem;
+  height: 3rem;
+}
+
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: .75rem;
+}
+
+.text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
+.text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+.text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+
+.project_title {
+  color: white;
+  text-shadow: 1px 1px 2px black
 }
 
 section.resume-section {
